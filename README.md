@@ -50,7 +50,6 @@ Tornar-se a plataforma de referência para monitoramento bioacústico de espéci
 | **tRPC 11** | 100% | RPC type-safe para comunicacao frontend-backend |
 | **MySQL** | 100% | Banco de dados relacional |
 | **Drizzle ORM** | 100% | ORM moderno e type-safe |
-| **Manus OAuth** | 100% | Autenticacao segura |
 | **Google Cloud Run** | 100% | Deployment serverless |
 | **Google Cloud Storage** | 100% | Armazenamento de arquivos de audio |
 | **shadcn/ui** | 100% | Componentes UI reutilizaveis |
