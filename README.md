@@ -340,7 +340,7 @@ git push origin v1.0.0
 ## Seguranca
 
 ### Autenticacao
-- OAuth 2.0 via Manus
+- OAuth Google
 - Session cookies com JWT
 - HTTPS/TLS em transito
 
