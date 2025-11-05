@@ -61,59 +61,7 @@ Tornar-se a plataforma de referência para monitoramento bioacústico de espéci
 
 ## Estrutura do Projeto
 
-```
-biolingo-web/
-├── client/                          # Frontend React
-│   ├── src/
-│   │   ├── pages/                  # Paginas da aplicacao
-│   │   │   ├── Home.tsx            # Landing page com hero section
-│   │   │   ├── Dashboard.tsx       # Dashboard do utilizador autenticado
-│   │   │   ├── Record.tsx          # Interface de gravacao de audio
-│   │   │   ├── Observations.tsx    # Criacao de observacoes
-│   │   │   ├── Explore.tsx         # Exploracao de dados e mapa
-│   │   │   └── NotFound.tsx        # Pagina 404
-│   │   ├── components/             # Componentes reutilizaveis
-│   │   │   ├── ui/                 # Componentes shadcn/ui
-│   │   │   ├── DashboardLayout.tsx # Layout para dashboard
-│   │   │   └── ErrorBoundary.tsx   # Tratamento de erros
-│   │   ├── contexts/               # React contexts
-│   │   │   └── ThemeContext.tsx    # Gerenciamento de tema
-│   │   ├── hooks/                  # Custom hooks
-│   │   │   └── useAuth.ts          # Hook de autenticacao
-│   │   ├── lib/                    # Utilidades
-│   │   │   └── trpc.ts             # Cliente tRPC
-│   │   ├── App.tsx                 # Roteamento principal
-│   │   ├── main.tsx                # Entry point
-│   │   └── index.css               # Estilos globais
-│   └── public/                     # Assets estaticos
-│       ├── logo.svg
-│       └── favicon.ico
-├── server/                          # Backend Express
-│   ├── db.ts                       # Query helpers para database
-│   ├── routers.ts                  # tRPC routers e procedimentos
-│   ├── _core/                      # Framework internals
-│   │   ├── context.ts              # Contexto de requisicao
-│   │   ├── trpc.ts                 # Configuracao tRPC
-│   │   ├── env.ts                  # Variaveis de ambiente
-│   │   ├── auth.ts                 # Logica de autenticacao
-│   │   ├── llm.ts                  # Integracao com LLM
-│   │   ├── imageGeneration.ts      # Geracao de imagens
-│   │   └── voiceTranscription.ts   # Transcricao de audio
-│   └── storage.ts                  # Helpers de armazenamento S3
-├── drizzle/                         # Database schema
-│   ├── schema.ts                   # Definicoes de tabelas
-│   └── migrations/                 # SQL migrations
-├── storage/                         # S3 helpers
-├── shared/                          # Codigo compartilhado
-│   └── const.ts                    # Constantes globais
-├── ML_INTEGRATION.md                # Guia de integracao com ML
-├── ARCHITECTURE.md                  # Arquitetura tecnica
-├── README_BIOLINGO.md               # Documentacao adicional
-├── package.json                     # Dependencias do projeto
-├── tsconfig.json                    # Configuracao TypeScript
-├── vite.config.ts                   # Configuracao Vite
-└── drizzle.config.ts                # Configuracao Drizzle
-```
+
 
 ---
 
