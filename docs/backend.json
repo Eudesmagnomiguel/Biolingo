@@ -1,0 +1,106 @@
+
+{
+    "entities": {
+        "UserProfile": {
+            "title": "User Profile",
+            "description": "Represents a user's public profile.",
+            "type": "object",
+            "properties": {
+                "uid": {
+                    "type": "string",
+                    "description": "The user's unique ID."
+                },
+                "displayName": {
+                    "type": "string",
+                    "description": "The user's display name."
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email",
+                    "description": "The user's email address."
+                },
+                "photoURL": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL of the user's profile picture."
+                },
+                "phoneNumber": {
+                    "type": "string",
+                    "description": "The user's phone number."
+                },
+                "location": {
+                    "type": "string",
+                    "description": "The user's location."
+                }
+            },
+            "required": ["uid", "email", "displayName"]
+        },
+        "Observation": {
+            "title": "Observation",
+            "description": "Represents a single species observation by a user.",
+            "type": "object",
+            "properties": {
+                "userId": {
+                    "type": "string",
+                    "description": "The ID of the user who made the observation."
+                },
+                "commonName": {
+                    "type": "string",
+                    "description": "The common name of the species."
+                },
+                "scientificName": {
+                    "type": "string",
+                    "description": "The scientific name of the species."
+                },
+                "observationDate": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "The date and time of the observation."
+                },
+                "location": {
+                    "type": "string",
+                    "description": "The location of the observation."
+                },
+                "latitude": {
+                    "type": "number",
+                    "description": "The latitude of the observation."
+                },
+                "longitude": {
+                    "type": "number",
+                    "description": "The longitude of the observation."
+                },
+                "notes": {
+                    "type": "string",                    "description": "Additional notes about the observation."
+                },
+                "photoUrl": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL of a photo of the observation."
+                },
+                "audioUrl": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "URL of an audio recording of the observation."
+                }
+            },
+            "required": ["userId", "commonName", "scientificName", "observationDate", "location"]
+        }
+    },
+    "auth": {
+        "providers": ["google.com", "password"]
+    },
+    "firestore": {
+        "/users/{userId}": {
+            "schema": {
+                "$ref": "#/entities/UserProfile"
+            },
+            "description": "Stores public information for each user."
+        },
+        "/observations/{observationId}": {
+            "schema": {
+                "$ref": "#/entities/Observation"
+            },
+            "description": "Stores user-submitted species observations."
+        }
+    }
+}

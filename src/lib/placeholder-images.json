@@ -1,0 +1,136 @@
+{
+  "placeholderImages": [
+    {
+      "id": "fox",
+      "description": "Uma raposa vermelha na neve.",
+      "imageUrl": "https://images.unsplash.com/photo-1703364510562-f46855644ed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmb3glMjBzbm93fGVufDB8fHx8MTc2MTkyMzcwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fox snow"
+    },
+    {
+      "id": "flamingo",
+      "description": "Um flamingo rosa em águas rasas.",
+      "imageUrl": "https://images.unsplash.com/photo-1723444611197-7c7f82dd09e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmbGFtaW5nbyUyMHdhdGVyfGVufDB8fHx8MTc2MTkyMzcwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flamingo water"
+    },
+    {
+      "id": "monarch-butterfly",
+      "description": "Uma borboleta monarca numa flor.",
+      "imageUrl": "https://images.unsplash.com/photo-1534198601173-4de3342a0b62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb25hcmNoJTIwYnV0dGVyZmx5fGVufDB8fHx8MTc2MTg5MzQ3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "monarch butterfly"
+    },
+    {
+      "id": "chameleon",
+      "description": "Um camaleão colorido num ramo.",
+      "imageUrl": "https://images.unsplash.com/photo-1633008988882-b7193dc43a22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGFtZWxlb24lMjBicmFuY2h8ZW58MHx8fHwxNzYxOTIzNzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chameleon branch"
+    },
+    {
+      "id": "robin",
+      "description": "Um pisco-de-peito-ruivo num poste.",
+      "imageUrl": "https://images.unsplash.com/photo-1639671166282-f66932a3aa73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cm9iaW4lMjBwZXJjaHxlbnwwfHx8fDE3NjE5MjM3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "robin perch"
+    },
+    {
+      "id": "highland-cow",
+      "description": "Uma vaca das terras altas com pelo comprido.",
+      "imageUrl": "https://images.unsplash.com/photo-1522521612083-730fb19791c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoaWdobGFuZCUyMGNvd3xlbnwwfHx8fDE3NjE5MjM3MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "highland cow"
+    },
+    {
+      "id": "puffin",
+      "description": "Um papagaio-do-mar numa rocha.",
+      "imageUrl": "https://images.unsplash.com/photo-1579513163483-ee694428bac7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwdWZmaW4lMjByb2NrfGVufDB8fHx8MTc2MTkyMzcwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "puffin rock"
+    },
+    {
+      "id": "rabbit",
+      "description": "Um coelho num campo.",
+      "imageUrl": "https://images.unsplash.com/photo-1706456133398-2db6f4349eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyYWJiaXQlMjBmaWVsZHxlbnwwfHx8fDE3NjE5MjM3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rabbit field"
+    },
+    {
+      "id": "elephant",
+      "description": "Um elefante na savana.",
+      "imageUrl": "https://images.unsplash.com/photo-1757778051492-0cd861f369d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVwaGFudCUyMHNhdmFubmF8ZW58MHx8fHwxNzYxOTIzNzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elephant savanna"
+    },
+    {
+      "id": "painted-lady-butterfly",
+      "description": "Uma borboleta bela-dama numa flor.",
+      "imageUrl": "https://images.unsplash.com/photo-1602074807869-1a745fc00c0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidXR0ZXJmbHklMjBmbG93ZXJ8ZW58MHx8fHwxNzYxODI1NDI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "butterfly flower"
+    },
+    {
+      "id": "green-chameleon",
+      "description": "Um camaleão verde a olhar para a câmara.",
+      "imageUrl": "https://images.unsplash.com/photo-1617540021016-72023b487e99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmVlbiUyMGNoYW1lbGVvbnxlbnwwfHx8fDE3NjE5MjM3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green chameleon"
+    },
+    {
+      "id": "rhino",
+      "description": "Um rinoceronte na lama.",
+      "imageUrl": "https://images.unsplash.com/photo-1709713613401-3de73ec6f15b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyaGlubyUyMG11ZHxlbnwwfHx8fDE3NjE5MjM3MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rhino mud"
+    },
+    {
+      "id": "fox-2",
+      "description": "Uma raposa numa floresta.",
+      "imageUrl": "https://images.unsplash.com/photo-1721374459238-18d94d554ad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb3glMjBmb3Jlc3R8ZW58MHx8fHwxNzYxOTIzNzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fox forest"
+    },
+    {
+      "id": "bald-eagle",
+      "description": "O close-up de uma águia-careca.",
+      "imageUrl": "https://images.unsplash.com/photo-1628703275211-675419b0b995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiYWxkJTIwZWFnbGV8ZW58MHx8fHwxNzYxOTIzNzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bald eagle"
+    },
+    {
+      "id": "deer",
+      "description": "Um veado numa floresta.",
+      "imageUrl": "https://images.unsplash.com/photo-1729250830876-ef3d3e32cd0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZWVyJTIwZm9yZXN0fGVufDB8fHx8MTc2MTkyMzcwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "deer forest"
+    },
+    {
+      "id": "avatar1",
+      "description": "Avatar de Adam Lambeter",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjE4ODE5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar2",
+      "description": "Avatar de Lysa Ansaldi",
+      "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MTkwOTQyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar3",
+      "description": "Avatar de Tommy West",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjE4ODE5NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "kissama-park",
+      "description": "Paisagem do Parque Nacional da Kissama",
+      "imageUrl": "https://images.unsplash.com/photo-1588193853877-913b8e7e1c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmdvbGElMjBzYXZhbm5haHxlbnwwfHx8fDE3NjI0NTg5Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "angola savanna"
+    },
+    {
+      "id": "tundavala-fissure",
+      "description": "Fenda da Tundavala na Huíla",
+      "imageUrl": "https://images.unsplash.com/photo-1505832624239-b99b5b59787a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwyfHxhbmdvbGElMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzMxNTg4Mzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "angola landscape"
+    },
+    {
+      "id": "cangandala-park",
+      "description": "Paisagem do Parque Nacional da Cangandala",
+      "imageUrl": "https://images.unsplash.com/photo-1586811324403-75a7b6c31160?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzk5ODJ8MHwxfHNlYXJjaHwxfHxhbmdvbGElMjBmb3Jlc3R8ZW58MHx8fHwxNzMxNTg4NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "angola forest"
+    },
+    {
+      "id": "science-lab",
+      "description": "Equipamento de laboratório para investigação sonora.",
+      "imageUrl": "https://images.unsplash.com/photo-1579168765467-3b235f938439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwbGFifGVufDB8fHx8MTc2MjQ1ODk2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science lab"
+    }
+  ]
+}
