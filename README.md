@@ -93,8 +93,8 @@ Siga estas instruções para configurar e executar o projeto no seu ambiente de 
 
 1.  **Clone o repositório:**
     ```bash
-    git clone <URL_DO_SEU_REPOSITÓRIO>
-    cd <NOME_DO_PROJETO>
+    git clone (https://github.com/biolingo/biolingo.git)
+    cd biolingo
     ```
 
 2.  **Instale as dependências:**
@@ -182,7 +182,7 @@ Com este guia, deverá ser capaz de configurar e começar a desenvolver na plata
 
 ### Passo 1: Clonar o Repositorio
 ```bash
-git clone https://github.com/biolingo/biolingo-web.git
+git clone https://github.com/biolingo/biolingo.git
 cd biolingo
 ```
 
@@ -298,7 +298,6 @@ Observacoes de utilizadores sobre avistamentos de especies.
 ### VocalizationTypes
 Tipos de vocalizacao (alarme, acasalamento, territorial, social, contacto).
 
-Para mais detalhes, ver [ARCHITECTURE.md](./ARCHITECTURE.md)
 
 ---
 
