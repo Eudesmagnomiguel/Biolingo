@@ -60,6 +60,113 @@ Tornar-se a plataforma de referência para monitoramento bioacústico de espéci
 ---
 
 ## Estrutura do Projeto
+# BioLingo - Traduza a Linguagem da Natureza
+
+Bem-vindo ao BioLingo, uma aplicação web construída com Next.js, Firebase e Genkit que permite aos utilizadores explorar, identificar e aprender sobre a biodiversidade através da análise de sons e imagens da natureza.
+
+## Funcionalidades Principais
+
+*   **Análise de Áudio e Imagem com IA**: Utilize IA para identificar espécies a partir de gravações de áudio e fotografias.
+*   **Autenticação de Utilizadores**: Sistema de login e registo seguro com Firebase Authentication.
+*   **Base de Dados em Tempo Real**: As observações e os perfis de utilizador são armazenados no Firestore.
+*   **Exploração de Conteúdo**: Navegue por artigos e contribuições da comunidade sobre a vida selvagem.
+*   **Painel de Administração**: Ferramentas para gestão de utilizadores e moderação de conteúdo.
+
+## Tecnologias Utilizadas
+
+*   **Framework**: [Next.js](https://nextjs.org/) (com App Router)
+*   **Base de Dados e Autenticação**: [Firebase](https://firebase.google.com/) (Firestore, Authentication)
+*   **Inteligência Artificial**: [Genkit](https://firebase.google.com/docs/genkit)
+*   **UI**: [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/) e [ShadCN UI](https://ui.shadcn.com/)
+*   **Deployment**: [Vercel](https://vercel.com/) ou [Firebase App Hosting](https://firebase.google.com/docs/app-hosting)
+
+## Primeiros Passos
+
+Siga estas instruções para configurar e executar o projeto no seu ambiente de desenvolvimento local.
+
+### Pré-requisitos
+
+*   Node.js (versão 20.x ou superior)
+*   `npm` ou um gestor de pacotes compatível
+
+### Instalação
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone <URL_DO_SEU_REPOSITÓRIO>
+    cd <NOME_DO_PROJETO>
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+### Executar a Aplicação
+
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
+
+```bash
+npm run dev
+```
+
+A aplicação estará disponível em [http://localhost:9002](http://localhost:9002).
+
+## Estrutura do Projeto
+
+Aqui está uma visão geral das pastas e ficheiros mais importantes do projeto:
+
+```
+.
+├── src
+│   ├── app/                # Páginas da aplicação (Next.js App Router)
+│   │   ├── (auth)/         # Rotas de autenticação (ex: /login, /register)
+│   │   ├── admin/          # Painel de administração
+│   │   ├── explore/        # Páginas de exploração de conteúdo
+│   │   ├── profile/        # Perfil do utilizador
+│   │   ├── layout.tsx      # Layout principal da aplicação
+│   │   └── page.tsx        # Página inicial
+│   │
+│   ├── ai/                 # Lógica relacionada com Inteligência Artificial
+│   │   ├── flows/          # Fluxos do Genkit para análise de áudio, imagem, etc.
+│   │   ├── schemas/        # Esquemas (Zod) para as entradas e saídas dos fluxos
+│   │   └── genkit.ts       # Configuração principal do Genkit
+│   │
+│   ├── components/         # Componentes React reutilizáveis
+│   │   ├── ui/             # Componentes da biblioteca ShadCN UI
+│   │   └── AppLayout.tsx   # Layout da aplicação (com navegação)
+│   │
+│   ├── firebase/           # Configuração e hooks do Firebase
+│   │   ├── auth/           # Hooks e lógica de autenticação
+│   │   ├── firestore/      # Hooks para interagir com o Firestore
+│   │   ├── client-provider.tsx # Fornecedor de cliente Firebase
+│   │   ├── config.ts       # Configuração do Firebase
+│   │   └── provider.tsx    # Fornecedor de contexto Firebase
+│   │
+│   ├── hooks/              # Hooks personalizados (ex: use-mobile)
+│   │
+│   ├── lib/                # Funções utilitárias e dados estáticos
+│   │   ├── animal-data.ts  # Dados de exemplo para animais/contribuidores
+│   │   └── utils.ts        # Funções de utilidade geral
+│   │
+│   └── docs/               # Documentação do projeto
+│       └── backend.json    # Definição das entidades e estrutura do Firestore
+│
+├── public/                 # Ficheiros estáticos (imagens, ícones)
+│
+├── next.config.ts          # Configuração do Next.js
+├── tailwind.config.ts      # Configuração do Tailwind CSS
+└── package.json            # Dependências e scripts do projeto
+```
+
+## Scripts Disponíveis
+
+*   `npm run dev`: Inicia o servidor de desenvolvimento.
+*   `npm run build`: Compila a aplicação para produção.
+*   `npm run start`: Inicia um servidor de produção.
+*   `npm run lint`: Executa o linter para verificar a qualidade do código.
+
+Com este guia, deverá ser capaz de configurar e começar a desenvolver na plataforma BioLingo. Bom trabalho!
 
 
 
@@ -76,7 +183,7 @@ Tornar-se a plataforma de referência para monitoramento bioacústico de espéci
 ### Passo 1: Clonar o Repositorio
 ```bash
 git clone https://github.com/biolingo/biolingo-web.git
-cd biolingo-web
+cd biolingo
 ```
 
 ### Passo 2: Criar Ambiente Virtual
@@ -90,42 +197,7 @@ cp .env.example .env.local
 # JWT_SECRET=seu-jwt-secret
 ```
 
-### Passo 3: Instalar Dependencias
-```bash
-pnpm install
-```
 
-### Passo 4: Inicializar Banco de Dados
-```bash
-pnpm db:push
-```
-
-### Passo 5: Iniciar Servidor de Desenvolvimento
-```bash
-pnpm dev
-```
-
-Acesse `http://localhost:3000` no navegador.
-
----
-
-## Comandos Uteis
-
-### Desenvolvimento
-```bash
-pnpm dev              # Iniciar servidor de desenvolvimento
-pnpm build            # Build para producao
-pnpm preview          # Preview do build
-pnpm type-check       # Verificar tipos TypeScript
-```
-
-### Database
-```bash
-pnpm db:push          # Aplicar migracao
-pnpm db:studio        # Abrir Drizzle Studio (GUI)
-pnpm db:generate      # Gerar migracao
-pnpm db:migrate       # Executar migracao
-```
 
 ### Linting e Formatting
 ```bash
@@ -145,12 +217,6 @@ pnpm test:coverage    # Cobertura de testes
 
 ## Fluxo de Dados
 
-### 1. Autenticacao
-```
-Utilizador -> Portal de Login (Manus OAuth)
-           -> Callback Handler (/api/oauth/callback)
-           -> Session Cookie (JWT)
-           -> Frontend (useAuth hook)
 ```
 
 ### 2. Submissao de Gravacao
